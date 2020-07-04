@@ -1,17 +1,25 @@
 {
-  "name": "express_website",
+  "name": "express-website",
   "version": "1.0.0",
-  "description": "Simple website",
+  "description": "Simple Express Computer Application website. Using simple bootstrap template, nodemailer model which gives contact form, and routing &amp; parsing data with jade",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Amir Haytham Salama",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-me-projects/express-website.git"
+  },
+  "author": "AmirHaytham",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/node-me-projects/express-website/issues"
+  },
+  "homepage": "https://github.com/node-me-projects/express-website#readme",
   "dependencies": {
-  	"body-parser": "*",
-  	"express": "*",
-  	"jade": "*",
-  	"nodemailer": "*"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
